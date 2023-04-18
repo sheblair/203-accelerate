@@ -113,3 +113,22 @@ div.case-study-images img {
 	width: 100%;
 	height: auto;
 }
+
+.social-media-menu {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.social-media-menu li {
+	background-color: black;
+	border-radius: 50%;
+	margin: 5px;
+
+}
+
+.social-media-menu li a {
+	color: white;
+	padding: 4px;
+}
