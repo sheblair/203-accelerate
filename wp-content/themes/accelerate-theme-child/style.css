@@ -191,3 +191,105 @@ nf-field:nth-of-type(3) {
 	background-color: #45ac9d;
 	padding: 0 80px;
 }
+
+/* about page */
+
+.about-heading {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.about-heading-title {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	font-size: .8rem;
+}
+
+.about-intro {
+	margin: 0;
+	font-size: .8rem;
+	color: gray;
+}
+
+.about-main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 40px 30px 0 30px;
+}
+
+.about-section {
+	display: flex;
+	flex-flow: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.section-image {
+	width: 20%;
+	max-width: 20%;
+	align-self: center;
+}
+
+.about-section-text {
+	width: 75%;
+    margin-bottom: 40px;
+}
+
+.about-section-text h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+
+.about-section-text p {
+	font-size: .8rem;
+	width: 85%;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	color: gray;
+}
+
+#about-section-2 .about-section-text {
+	align-items: flex-start;
+}
+#about-section-4 .about-section-text {
+	align-items: flex-start;
+}
+
+#about-section-1 .section-image {
+	margin-right: 50px;
+}
+
+#about-section-3 .section-image {
+	margin-right: 50px;
+}
+
+.about-bottom {
+	border-top: 1px solid #bfbfbf;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+}
+
+.about-bottom h2 {
+	font-family: 'Open Sans', sans-serif;
+	margin-right: 30px;
+}
+
+.about-bottom a {
+	margin-top: 35px;
+}
+
+.about-bottom button {
+	background-color: #45ac9d;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	border: none;
+	padding: 10px 40px;
+}
