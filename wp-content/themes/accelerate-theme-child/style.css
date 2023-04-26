@@ -320,8 +320,10 @@ nf-field:nth-of-type(3) {
 
 .not-found-text h1 {
 	color: #45ac9d;
-	font-size: 2rem;
+	font-size: 3rem;
 	margin-top: 30px;
+	font-family: 'Londrina Solid', 'Montserrat', 'Open Sans', Arial, sans-serif;
+	font-weight: 400;
 }
 
 .not-found-text a {
