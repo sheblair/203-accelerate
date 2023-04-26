@@ -293,3 +293,42 @@ nf-field:nth-of-type(3) {
 	border: none;
 	padding: 10px 40px;
 }
+
+/* 404 page */
+#not-found-main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.not-found-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 90%;
+}
+
+.not-found-container img {
+	width: 35%;
+	max-width: 35%;
+}
+
+.not-found-text {
+	width: 60%;
+}
+
+.not-found-text h1 {
+	color: #45ac9d;
+	font-size: 2rem;
+	margin-top: 30px;
+}
+
+.not-found-text a {
+	color: #45ac9d;
+	font-weight: bold;
+}
+
+.not-found-text a, .not-found-text p {
+	font-size: 1.2rem;
+}
