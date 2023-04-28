@@ -334,3 +334,36 @@ nf-field:nth-of-type(3) {
 .not-found-text a, .not-found-text p {
 	font-size: 1.2rem;
 }
+
+.recent-posts {
+	display: flex;
+	justify-content: flex-start;
+	margin: 0 60px;
+}
+
+#blog-post-section {
+	width: 100%;
+	margin: 0 50px;
+}
+
+.blog-post {
+	width: 100%;
+}
+
+#social-feed {
+	width: 100%;
+	margin-right: 50px;
+}
+
+#secondary h4 {
+	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0 0.5em;
+}
+
+#newsletter-button {
+	color: white;
+	background-color: #45ac9d;
+	padding: 10px 40px;
+}
